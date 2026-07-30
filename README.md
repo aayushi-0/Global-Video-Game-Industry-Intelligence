@@ -37,6 +37,14 @@ This project aims to answer key business questions such as:
 | Power BI | Dashboard Development |
 | GitHub | Project Documentation & Version Control |
 
+## ⭐ Project Highlights
+
+- Built an end-to-end Data Analytics solution using Python, PostgreSQL, SQL, and Power BI.
+- Cleaned and transformed two gaming datasets for analysis.
+- Designed a PostgreSQL database schema and SQL views.
+- Answered business questions through SQL-based analysis.
+- Developed a four-page interactive Power BI dashboard with actionable business insights.
+  
 
 ## 📂 Project Workflow
 
