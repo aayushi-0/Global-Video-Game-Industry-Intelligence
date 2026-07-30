@@ -62,6 +62,42 @@ Power BI Dashboard
 Business Insights & Recommendations
 
 ```
+## 📂 Datasets
+
+This project combines two datasets:
+
+### Video Game Sales Dataset
+- Historical global video game sales
+- Platform, genre, publisher, regional sales
+- Critic and user review scores
+
+### Steam Games Dataset
+- Steam game catalog
+- Pricing and discounts
+- Review summaries
+- Release information
+- Developer and publisher details
+
+## 🗄️ SQL Analysis
+
+The SQL scripts include:
+
+- Database schema creation
+- SQL views for integrated analysis
+- Business queries covering:
+  - Top-selling games
+  - Publisher performance
+  - Genre trends
+  - Regional sales
+  - Platform comparison
+  - Critic vs User ratings
+  - Steam analytics
+ 
+## 📊 Power BI Dashboard
+
+The complete interactive Power BI report is included in the **Power-BI** folder.
+
+Open the `.pbix` file using Microsoft Power BI Desktop to explore all dashboard pages and visuals.
 
 ## 📊 Dashboard Overview
 
@@ -91,7 +127,7 @@ The Power BI report consists of four interactive dashboard pages designed to ans
 - Business recommendations
 - Strategic takeaways
 
-- ## 📷 Dashboard Preview
+## 📷 Dashboard Preview
 
 ### Executive Overview
 
@@ -125,7 +161,7 @@ The Power BI report consists of four interactive dashboard pages designed to ans
 - ⭐ Most Steam titles maintained strong user review scores, indicating positive player engagement.
 - 💰 Paid games formed the majority of the Steam marketplace, while free-to-play titles represented a smaller but important segment.
 
-- ## 💡 Business Recommendations
+## 💡 Business Recommendations
 
 Based on the analysis, gaming companies can consider the following strategies:
 
@@ -135,14 +171,15 @@ Based on the analysis, gaming companies can consider the following strategies:
 - Monitor Steam pricing strategies to remain competitive.
 - Improve customer engagement and post-launch support to maintain positive user reviews.
 
-- ## 📁 Repository Structure
+## 📁 Repository Structure
 
 ```text
 Global-Video-Game-Industry-Intelligence
 │
 ├── Data
 │   ├── video_games_sales_cleaned.csv
-│   ├── Data_Dictionary - Video_games.csv
+│   ├── steam_games_cleaned.csv
+│   ├── Data_Dictionary - Video_games_sales_dataset.csv
 │   └── Data_Dictionary - Sheet2.csv
 │
 ├── Images
@@ -151,26 +188,36 @@ Global-Video-Game-Industry-Intelligence
 │   ├── steam-analytics.png
 │   └── executive-insights.png
 │
+├── Power-BI
+│   └── Global_Video_Game_Industry_Intelligence.pbix
+│
 ├── Python
 │   ├── 01_Data_Profiling.ipynb
 │   ├── 02_Data_Cleaning.ipynb
 │   └── 03_Steam_Data_Cleaning.ipynb
+│
+├── SQL
+│   ├── 01_Database_Schema.sql
+│   ├── 02_SQL_Views.sql
+│   └── 03_Business_Analysis.sql
 │
 └── README.md
 ```
 
 ## 🚀 Future Improvements
 
-- Add SQL scripts used for data extraction and analysis.
-- Include the Power BI (.pbix) dashboard file.
-- Integrate additional gaming datasets for richer analysis.
-- Build predictive models for game sales forecasting.
-- Deploy an interactive dashboard using Power BI Service.
+- Integrate live Steam API data for real-time analytics.
+- Develop predictive models for video game sales forecasting.
+- Perform sentiment analysis on Steam user reviews.
+- Publish the dashboard through Power BI Service for online access.
+- Automate the ETL pipeline for scheduled data refreshes.
 
 ## 👩‍💻 Author
 
 **Aayushi**
 
 Computer Science Undergraduate | Aspiring Data Analyst
+
+**Skills:** Python • SQL • PostgreSQL • Power BI • Data Visualization • Business Intelligence
 
 If you found this project interesting, feel free to explore the repository and connect with me.
