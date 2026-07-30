@@ -1,0 +1,17 @@
+Column Name,Data Type,Description,Example,Notes
+Name,Object,Name of the video game,Wii Sports,Primary identifier
+Platform,Object,Gaming platform on which the game was released,"Wii, PS2, Xbox 360",Used for platform analysis
+Year_of_Release,Float,Release year of the game,2006,Contains missing values
+Genre,Object,Genre of the game,"Sports, Action",12 unique genres
+Publisher,Object,Company that published the game,Nintendo,Missing in some rows
+NA_Sales,Float,Sales in North America (millions of copies),41.36,Complete column
+EU_Sales,Float,Sales in Europe (millions of copies),28.96,Complete column
+JP_Sales,Float,Sales in Japan (millions of copies),3.77,Complete column
+Other_Sales,Float,Sales in other regions (millions of copies),8.45,Complete column
+Global_Sales,Float,Total worldwide sales (millions of copies),82.53,Main performance metric
+Critic_Score,Float,Average critic score,76,Many missing values
+Critic_Count,Float,Number of critic reviews,51,Many missing values
+User_Score,Object,Average user score,8.3,Stored as text; will inspect why
+User_Count,Float,Number of user ratings,322,Many missing values
+Developer,Object,Company that developed the game,Nintendo,Missing in many rows
+Rating,Object,ESRB age rating,E,Only 8 unique categories
